@@ -1,0 +1,9 @@
+{
+    "name":         "SFApp Collector",
+    "version":      "0.0.1",
+    "main":         "index.html",
+    "description":   "collecting information from remote storage array",
+    "webkit": {
+        "plugin": true
+    }
+}

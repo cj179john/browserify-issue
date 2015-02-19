@@ -1,0 +1,38 @@
+{
+  "name": "sfapp",
+  "version": "0.0.0",
+  "main": "web/index.html",
+  "dependencies": {},
+  "devDependencies": {
+    "grunt": "^0.4.1",
+    "grunt-cli": "^0.1.13",
+    "grunt-contrib-clean": "~0.6.0",
+    "grunt-contrib-copy": "^0.7.0",
+    "grunt-contrib-watch": "^0.6.1",
+    "grunt-contrib-compass": "^1.0.1",
+    "grunt-contrib-cssmin": "^0.9.0",
+    "grunt-contrib-concat": "^0.4.0",
+    "grunt-contrib-uglify": "^0.4.0",
+    "grunt-contrib-jshint": "^0.10.0",
+    "grunt-newer": "^0.7.0",
+    "grunt-concurrent": "^0.5.0",
+    "grunt-karma": "^0.9.0",
+    "grunt-browserify": "^3.3.0",
+    "lodash": "^2.4.1",
+    "shortid": "~2.0.1",
+    "time-grunt": "^0.3.1",
+    "load-grunt-tasks": "^0.4.0",
+    "jshint-stylish": "^0.2.0",
+    "karma-jasmine": "^0.3.0",
+    "karma-phantomjs-launcher": "^0.1.4",
+    "grunt-protractor-runner": "^1.1.4",
+    "protractor": "^1.3.1",
+    "protractor-http-mock": "^0.1.5",
+    "grunt-contrib-compress": "~0.13.0",
+    "grunt-exec": "~0.4.6",
+    "karma-browserify-preprocessor": "~0.2.0"
+  },
+  "engines": {
+    "node": ">=0.10.0"
+  }
+}

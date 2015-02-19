@@ -1,0 +1,16 @@
+<div>
+	<form name="collectorForm">
+
+		<label for="host">Host name or IP address</label>
+		<input type="text" name="host" id="host" ng-model="host" required/>
+		
+		<br/>
+		<small ng-show="collectorForm.host.$invalid && !collectorForm.host.$pristine" >
+			<span style="color:red;">Host name or IP address is required.</span>
+		</small>
+
+		<br/>
+		<button type="submit" ng-click="submit()" ng-disabled="collectorForm.host.$invalid">Collect</button>
+
+  	</form>
+</div>
